@@ -1,5 +1,7 @@
 package practice;
 
+import util.Helper;
+
 import java.util.Arrays;
 
 /**
@@ -16,6 +18,11 @@ public class SelectionSort {
         System.out.println("sorted array: " + Arrays.toString(array));
     }
 
+    /**
+     * 对int数组进行选择排序
+     *
+     * @param array 待排序int数组
+     */
     public static void selectionSort(int[] array) {
         if (array == null || array.length < 2) {
             return;

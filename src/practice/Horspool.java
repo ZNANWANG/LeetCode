@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @Author: Wang An
  * @Date: 4/24/2020 10:58 AM
  */
-public class Horspoll {
+public class Horspool {
     public static void main(String[] args) {
         String text = "i am king of the world!, i am so exciting!";
         text = "";

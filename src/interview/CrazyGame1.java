@@ -1,4 +1,4 @@
-package test;
+package interview;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @Author: Wang An
  * @Date: 4/29/2020 7:00 PM
  */
-public class Main {
+public class CrazyGame1 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         while(sc.hasNextLine()){

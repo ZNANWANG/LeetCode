@@ -1,4 +1,4 @@
-package test;
+package interview;
 
 import java.util.*;
 
@@ -32,7 +32,7 @@ import java.util.*;
  * @Author: Wang An
  * @Date: 4/29/2020 7:32 PM
  */
-public class Main2 {
+public class CrazyGame3 {
     static ArrayList<ArrayList<Integer>> result = new ArrayList<>();
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -79,7 +79,7 @@ public class Main2 {
         }
         String ret = sb.toString();
         if (ret.length() > 0) {
-            ret = ret.substring(0, ret.length() - 1));
+            ret = ret.substring(0, ret.length() - 1);
         }
         return ret;
     }
